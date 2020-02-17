@@ -1,0 +1,122 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+}
+body {
+    min-width: 1000px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    color: #333;
+}
+img {
+    vertical-align: bottom;
+}
+.page-header {
+    background-image: url(../img/bg-main_visual.jpg);
+    padding-top: 40%;
+    background-size: cover;
+    position: relative;
+}
+#introduction {
+    background-color: #fffff3;
+}
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+.section_title {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+    line-height: 1.0;
+    color: #fff;
+}
+.section_title-black {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+    line-height: 1.0;
+}
+.section_text {
+    font-size: 1.6rem;
+    line-height: 2.0;
+}
+#feature {
+    background: url(../img/bg-content.jpg);
+    background-size: cover;
+}
+.feature-list {
+    padding: 50px;
+    margin: 0 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.feature-block_wrapper {
+    background-color: #fff;
+    width: 50%;
+    padding: 40px 20px;
+}
+.feature-block {
+    display: flex;
+}
+.feature-block_image {
+    width: 50%;
+    margin: 0;
+}
+.feature-block_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.feature-block_title {
+margin-bottom: 20px;
+font-size: 1.75rem;
+line-height: 1.75;
+}
+#client {
+    /* padding: 100px 0; */
+    background-color: #fffff3;
+}
+.section_text:not(:last-child) {
+    margin-bottom: 70px;
+}
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 780px;
+}
+.client-list_item {
+    list-style: none;
+    
+}
+.page-footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 24px 20px;
+}
+.page-footer_copyright {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.page-footer_nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+}
+.page-footer_nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+.page-footer_nav ul a {
+color: #fff;
+font-size: 1.2rem;
+}
